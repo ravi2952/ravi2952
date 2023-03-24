@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#28292b"
+    tools:context=".secondpage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disease name:"
+        android:textColor="#09b80c"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Skin rashes (itchy)"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treatment:"
+        android:textColor="#e3690b"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLD COMPRESS - one of the fastest and easiest medicine."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OATMEAL BATH - warm baths (3 times per week)."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COCONUT OIL - apply on the rash."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALOE VERA - apply the soap 2 to 3 times and bath daily"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="for any queries click the link below"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="www.healthline.com"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#1008fc"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/close_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="10dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="#0a6afa"
+        />
+
+</LinearLayout>
